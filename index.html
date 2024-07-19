@@ -297,107 +297,78 @@
 
     </main><!-- /#main -->
 
-   
-          <div class="shortcode-html">
-            <footer class="g-bg-black-opacity-0_9 g-color-white text-center g-py-100">
-              <div class="container">
-                <header class="u-heading-v8-2 text-center g-width-70x--md mx-auto g-mb-80">
-                  <h2 class="u-heading-v8__title text-uppercase g-font-weight-600 g-mb-25">Contact us</h2>
-                  <p class="lead mb-0">We do things differently company providing key digital services. Focused on helping our clients to build a successful business on web and mobile.</p>
-                </header>
-
-                <address class="row g-color-white-opacity-0_8">
-
-                  <div class="col-sm-6 col-md-3 g-mb-60">
-
-                    <i class="icon-line icon-map d-inline-block display-5 g-mb-25"></i>
-
-                    <h4 class="small text-uppercase g-mb-5">Address</h4>
-
-                    <strong>Orange California, US</strong>
-
-                  </div>
-
-
-
-                  <div class="col-sm-6 col-md-3 g-mb-60">
-
-                    <i class="icon-call-in d-inline-block display-5 g-mb-25"></i>
-
-                    <h4 class="small text-uppercase g-mb-5">Phone number</h4>
-
-                    <strong>+1 555 2342 111</strong>
-
-                  </div>
-
-
-
-                  <div class="col-sm-6 col-md-3">
-
-                    <i class="icon-envelope d-inline-block display-5 g-mb-25"></i>
-
-                    <h4 class="small text-uppercase g-mb-5">Email</h4>
-
-                    <a class="g-color-white-opacity-0_8" href="mailto:hello@unify-gym.com">
-
-                      <strong>info@htmlstream.com</strong></a>
-
-                  </div>
-
-
-
-                  <div class="col-sm-6 col-md-3">
-
-                    <i class="icon-earphones-alt d-inline-block display-5 g-mb-25"></i>
-
-                    <h4 class="small text-uppercase g-mb-5">Toll free</h4>
-
-                    <strong>100 302 2302</strong>
-
-                  </div>
-
-                </address>
-
-                <form>
-                  <div class="row">
-                    <div class="col-md-7">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group g-mb-20">
-                            <input id="inputGroup10_1" class="form-control g-bg-transparent g-bg-transparent--focus g-brd-white-opacity-0_5 g-brd-white--focus g-color-white g-rounded-50 g-px-20 g-py-12" type="text" placeholder="Name">
-                          </div>
-
-                          <div class="form-group g-mb-20">
-                            <input id="inputGroup10_2" class="form-control g-bg-transparent g-bg-transparent--focus g-brd-white-opacity-0_5 g-brd-white--focus g-color-white g-rounded-50 g-px-20 g-py-12" type="tel" placeholder="Phone">
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
-                          <div class="form-group g-mb-20">
-                            <input id="inputGroup1_3" class="form-control g-bg-transparent g-bg-transparent--focus g-brd-white-opacity-0_5 g-brd-white--focus g-color-white g-rounded-50 g-px-20 g-py-12" type="email" placeholder="Email">
-                          </div>
-
-                          <div class="form-group g-mb-20">
-                            <input id="inputGroup1_4" class="form-control g-bg-transparent g-bg-transparent--focus g-brd-white-opacity-0_5 g-brd-white--focus g-color-white g-rounded-50 g-px-20 g-py-12" type="text" placeholder="Subject">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-5">
-                      <div class="form-group g-mb-20">
-                        <textarea id="inputGroup11_5" class="form-control g-resize-none g-bg-transparent g-bg-transparent--focus g-brd-white-opacity-0_5 g-brd-white--focus g-color-white g-rounded-20 g-px-20 g-py-10" rows="5" placeholder="Message"></textarea>
-                      </div>
-
-                      <div class="text-right">
-                        <button class="btn u-btn-white g-font-size-11 text-uppercase g-font-weight-700 g-rounded-50 g-px-35 g-py-15" type="submit" role="button">Submit</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </footer>
+    <section id="contact">
+  
+      <h1 class="section-header">Contact</h1>
+  
+      <div class="contact-wrapper">
+  
+      <!-- Left contact page --> 
+    
+        <form id="contact-form" class="form-horizontal" role="form">
+       
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+            </div>
           </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+            </div>
+          </div>
+
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+      
+          </button>
+      
+        </form>
+    
+      <!-- Left contact page --> 
+    
+          <div class="direct-contact-container">
+
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+          
+              <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          
+              <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+          
+            </ul>
+
+            <hr>
+            <ul class="social-media-list">
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-github" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-codepen" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>       
+            </ul>
+            <hr>
+
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+          </div>
+    
+      </div>
+      
+    </section>  
+  
+  
         
 
     <!-- Modals -->
